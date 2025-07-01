@@ -2,7 +2,7 @@
  * @Author: gaoyang334 gaoyang334@jd.com
  * @Date: 2025-07-01 17:04:43
  * @LastEditors: gaoyang334 gaoyang334@jd.com
- * @LastEditTime: 2025-07-01 17:30:53
+ * @LastEditTime: 2025-07-01 17:51:49
  * @FilePath: /dark/src/app/aria/client.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -32,7 +32,7 @@ export default function AriaClient() {
   return (
     <div>
       <h1>{data?.status || "-"}</h1>
-      <h1>{JSON.stringify(data.data)}</h1>
+      <h1>{JSON.stringify(data?.data)}</h1>
     </div>
   );
 }
