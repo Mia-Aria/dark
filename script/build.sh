@@ -1,7 +1,8 @@
-# input your command here
+# rm -rf .next/cache
 node -v
 npm install -g npm@latest
-node -v
+npm config get registry
+
 npm cache clean --force
 rm -rf node_modules package-lock.json
 
